@@ -11,3 +11,26 @@ This project demonstrates professional Git workflow with remote repositories.
 ## Setup
 
 See lab instructions for complete setup guide.
+
+## Installation
+
+1. Clone this repository:
+
+```bash
+git clone <REMOTE_URL>
+cd git-team-lab
+```
+
+2. Install dependencies (if applicable):
+
+```bash
+npm install
+```
+
+3. Start working on a feature branch:
+
+```bash
+git checkout dev
+git pull
+git checkout -b feature/your-feature-name
+```
